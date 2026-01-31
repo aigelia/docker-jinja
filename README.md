@@ -35,8 +35,8 @@ docker build \
 
 ```shell
 docker run --rm \
-  -v $(pwd)/templates:/templates \
-  -v $(pwd)/render:/render \
+  -v "$(pwd)/templates:/templates" \
+  -v "$(pwd)/render:/render" \
   sjp:0.1.0
 ```
 
